@@ -1,0 +1,4 @@
+3468
+int : 4 : 0x5cb33ff72c
+float : 0.5 : 0x5cb33ff728
+char : r : 0x5cb33ff727

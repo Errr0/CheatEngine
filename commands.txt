@@ -1,0 +1,5 @@
+g++ -o2 -Wall main2.cpp -o main2.exe
+.\main2.exe
+
+g++ -o2 -Wall main.cpp -o main.exe
+.\main.exe
