@@ -17,11 +17,12 @@ int main(){
     }
     DWORD processID = GetCurrentProcessId();
     std::cout << "Process ID: " << processID << std::endl;
+    file<<processID<<"\n";
+    file<<"int : "<< a << " : "<< &a <<"\n";
+    file<<"float : "<< b << " : "<< &b <<"\n";
+    file<<"char : "<< c << " : "<< (void*)&c <<"\n";
+    file.close();
     while(!e){
-        file<<processID<<"\n";
-        file<<"int : "<< a << " : "<< &a <<"\n";
-        file<<"float : "<< b << " : "<< &b <<"\n";
-        file<<"char : "<< c << " : "<< (void*)&c <<"\n";
         // file.seekg(0);
         // while (std::getline(file, line)) {
         //     std::cout << line << std::endl;
